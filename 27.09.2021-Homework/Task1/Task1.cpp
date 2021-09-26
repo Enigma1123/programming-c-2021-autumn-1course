@@ -7,7 +7,10 @@ using namespace std;
 int main()
 {
 	setlocale(LC_ALL, "Russian");
-	int n = 0, a = 0, b = 0, c = 0;
+	int n = 0;
+	int a = 0;
+	int b = 0; 
+	int c = 0;
 	cin >> n;
 	a = n / 100;
 	b = (n % 100) / 10;
