@@ -4,7 +4,11 @@ using namespace std;
 
 int main()
 {
-	int a = 0, b = 0, c = 0, d = 0, x = 0;
+	int a = 0;
+	int b = 0;
+	int c = 0;
+	int d = 0;
+	int x = 0;
 	cin >> a >> b >> c >> d;
 	x = -b / a;
 
