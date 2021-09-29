@@ -1,2 +1,0 @@
-C:\Users\Костя\source\repos\22.09.2021-Homework\Debug\Task2.exe.lastcodeanalysissucceeded
-C:\Users\Костя\source\repos\22.09.2021-Homework\Task2\Debug\NativeCodeAnalysis.read.1.tlog
