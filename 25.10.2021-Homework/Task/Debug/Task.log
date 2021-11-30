@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 ﻿  LINK : отсутствует база данных C:\Users\Костя\Desktop\programming-c-2021-autumn-1course\25.10.2021-Homework\Debug\Task.pdb программы; выполняется полная компоновка
   Task.vcxproj -> C:\Users\Костя\Desktop\programming-c-2021-autumn-1course\25.10.2021-Homework\Debug\Task.exe
+=======
+﻿  LINK : отсутствует база данных C:\Users\Костя\Desktop\programming-c-2021-autumn-1course\25.10.2021-Homework\Debug\Task.pdb программы; выполняется полная компоновка
+  Task.vcxproj -> C:\Users\Костя\Desktop\programming-c-2021-autumn-1course\25.10.2021-Homework\Debug\Task.exe
+>>>>>>> 52b10e107f7767ed012d72ded81a4fc3d5d6c46e

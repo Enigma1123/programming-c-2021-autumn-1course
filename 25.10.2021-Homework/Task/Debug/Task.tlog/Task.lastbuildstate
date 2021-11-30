@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 PlatformToolSet=v142:VCToolArchitecture=Native32Bit:VCToolsVersion=14.29.30133:TargetPlatformVersion=10.0.19041.0:
 Debug|Win32|C:\Users\Костя\Desktop\programming-c-2021-autumn-1course\25.10.2021-Homework\|
+=======
+PlatformToolSet=v142:VCToolArchitecture=Native32Bit:VCToolsVersion=14.29.30133:TargetPlatformVersion=10.0.19041.0:
+Debug|Win32|C:\Users\Костя\Desktop\programming-c-2021-autumn-1course\25.10.2021-Homework\|
+>>>>>>> 52b10e107f7767ed012d72ded81a4fc3d5d6c46e
