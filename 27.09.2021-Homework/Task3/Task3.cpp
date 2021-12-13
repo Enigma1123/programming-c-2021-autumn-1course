@@ -4,15 +4,22 @@ using namespace std;
 
 int main()
 {
-	int k = 0, m = 0, n = 0;
-	cin >> k >> m >> n;
-	if (k >= n)
+	int k = 0;
+	int m = 0;
+	int n = 0;
+	cin >> k;
+	cin >> m;
+	cin >> n;
+	if (n <= k)
 	{
 		cout << (2 * m);
 	}
+	else if (((n * 2) % k) == 0)
+	{
+		cout << m * (n * 2 / k);
+	}
 	else
 	{
-		if ((n % k) == 0) cout << (n / k) * m*2;
-		else cout << ((n/k)+1)*m*2;
+		cout << m * (1 + (n * 2 / k));
 	}
 }
