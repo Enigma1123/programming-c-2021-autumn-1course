@@ -12,29 +12,37 @@ int main()
 	int min = 0;
 	int max1 = 0;
 	int max2 = 0;
-
-	cin >> n;
 	int a[N] = { 0 };
+	cin >> n;
 
 
 	for (int i = 1; i <= n; ++i)
 	{
 		cin >> a[i];
 		sum = sum + a[i];
-		if (a[i] < 0) pon = pon * a[i];
-
 	}
 	min = a[1];
 	max1 = a[1];
 	max2 = a[1];
 
 
+	for (int i = 1; i <= n; ++i)
+	{
+		if (a[i] < 0)
+		{
+			pon = pon * a[i];
+		}
+	}
+
 
 	cout << "ARRAY : ";
 	for (int i = 1; i <= n; ++i)
 	{
 		cout << a[i] << " ";
-		if (a[i] < a[1]) ind = i;
+		if (a[i] < a[1])
+		{
+			ind = i;
+		}
 		if (a[i] > max1)
 		{
 
@@ -47,7 +55,10 @@ int main()
 	cout << endl << "EVEN : ";
 	for (int i = 1; i <= n; ++i)
 	{
-		if (a[i] % 2 == 0) cout << a[i] << " ";
+		if (a[i] % 2 == 0)
+		{
+			cout << a[i] << " ";
+		}
 
 	}
 
@@ -74,6 +85,9 @@ int main()
 	cout << endl << "ODD INDEXES : ";
 	for (int i = 1; i <= n; ++i)
 		{
-			if (i % 2 != 0) cout << a[i] << " ";
+		if (i % 2 != 0)
+		{
+			cout << a[i] << " ";
+		}
 		}
 }
